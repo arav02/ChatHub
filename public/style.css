@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right top, #7a0505, #842305, #8c3705, #944908, #9b5b0e);
+    font-family: 'Roboto', sans-serif;
+}
+section.chat_section {
+    width: 800px;
+    max-width: 90%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background-image: linear-gradient(to right top, #c72a5a, #c7403c, #bd5920, #aa6f03, #928200);
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    text-transform: inherit;
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.message_area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+   
+    
+}
+textarea {
+    width: 100%;
+    min-height:30px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background:#3b3d3b;
+    color:rgb(214, 202, 202);
+    font-weight: lighter;
+}
+
+.message {
+    padding: 20px; 
+    border-radius: 4px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    padding: 15px;
+    background-image: linear-gradient(to right top, #54004c, #6f0360, #8d0873, #ac0d86, #cc1198);
+    color:whitesmoke;  
+    font-size:14px;
+    font-weight:600;
+    margin-right: auto;
+}
+.outgoing {
+    padding: 15px;
+    background-image: linear-gradient(to right bottom, #7c9b0b, #658f08, #4f8307, #387707, #1f6b07);
+    color: rgb(27, 27, 27);
+    margin-left: auto;
+    color: whitesmoke;
+    font-size:14px;
+    font-weight:500;
+}
+.message h4 {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: rgb(184, 172, 172);
+    font-size: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(36, 36, 36); 
+    border-radius: 2px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(36, 36, 36); 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(68, 66, 66); 
+  }

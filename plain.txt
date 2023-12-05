@@ -1,0 +1,25 @@
+TODO: 
+
+    [D] Create NPM project 
+       - npm init 
+
+    [D] Create Index, Css, Js files
+
+    [D] Install dependancies. express, nodemon(dev dep.)
+       - npm install express(handle server side code(express- nodejs framework))
+       - npm install nodemon -D (whenever we update server file ,nodemon takes care of it, freeing us from restarting server manually each time)
+   
+    [D] Create a express server (server.js)
+          add 'dev' script in package.json 
+        - npm run dev
+    [D] do frontend part
+        if running server and styles not applies . make sure that proper path is defined in server.js
+    [D] Install socket.io, Setup socket.io in server.js and client client.js
+        - npm install socket.io     
+  
+
+    [+] Client send message logic in client.js
+
+    [+] Recieve message on server and broadcast to all clients
+
+    [+] Recieve message on client and display it. scrollToBottom etc...
